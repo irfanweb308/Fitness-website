@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Shared Styles */
+.display-flex {
+    display: flex;
+}
+
+.orange {
+    color: #E6533C;
+}
+
+.white {
+    color: white;
+}
+
+.light-gray {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-primary {
+    background: #E6533C;
+    color: white;
+    padding: 16px 45px;
+    border-radius: 42px;
+    border: none;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.font {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: white;
+}
+
+
+/* Header styles */
+
+header {
+    max-width: 100%;
+    max-height: 715px;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
+
+.brand {
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.125rem;
+
+}
+
+.navbar {
+
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 190px;
+
+}
+
+.nav-links {
+    gap: 45px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 20px;
+    align-items: center;
+
+}
+
+.fitness {
+    justify-content: space-between;
+    margin: 0 190px;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #E6533C;
+    padding: 8px 20px 8px 20px;
+    border-radius: 46px;
+    align-items: center;
+}
+
+.fitness-title {
+    font-size: 4.875rem;
+    font-weight: 900;
+    color: white;
+    max-width: 520px;
+    margin-bottom: 28px;
+}
+
+.fitness-description {
+    max-width: 520px;
+    margin-bottom: 28px;
+
+}
+
+.pic {
+    max-width: 349px;
+    max-height: 580px;
+}
+
+.btn-secondary {
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    padding: 16px 45px;
+    border-radius: 42px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    background: black;
+    margin-left: 14px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #E6533C;
+    margin-top: 15px;
+}
+
+.blur-box-1 {
+    position: relative;
+    left: -150px;
+    top: -200px;
+    max-width: 206px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+
+}
+
+.content {
+    max-width: 108px;
+}
+
+.number {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #FAFAF9;
+    margin-bottom: 8px;
+}
+
+.des {
+    color: rgb(239, 237, 232, 0.65);
+    margin-top: 0px;
+
+}
+
+.blur-box-2 {
+    position: relative;
+    left: 200px;
+    top: -600px;
+    max-width: 193px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    padding: 17px;
+    text-align: center;
+}
+
+main {
+    background: black;
+}
+
+.change-habit {
+    max-width: 1044px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.habit-text {
+    max-width: 671px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.habit-title {
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-bottom: 14px;
+}
+
+.habit-description {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0px;
+}
+
+.habit-image {
+    max-width: 180px;
+    max-height: 180px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+
+.image-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.habit-content {
+    max-width: 231px;
+}
+
+.habits {
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+}
+
+.run-extra {
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    max-width: 1060px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    margin-top: 70px;
+}
+
+.run-img {
+    max-width: 366px;
+    max-height: 312px;
+    border-radius: 18px;
+}
+
+.run-content {
+    max-width: 443px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.habit-title {
+    margin-top: 0px;
+}
+
+.habit-description {
+    margin-bottom: 34px;
+
+}
+
+.exercise-content {
+    max-width: 671px;
+}
+
+.exercises {
+    max-width: 1060px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.img-container {
+
+    max-height: 200px;
+
+}
+
+.img-container>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+ 
+.img-1 {
+
+    max-width: 250px;
+}
+
+.img-2 {
+    max-width: 539px;
+}
+
+.img-3 {
+
+    max-width: 290px;
+}
+
+.img-4 {
+    max-width: 425px;
+
+
+}
+
+.img-5 {
+    max-width: 288px;
+
+}
+
+.img-6 {
+    max-width: 347px;
+
+}
+.bmi-content{
+    max-width: 671px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+}
