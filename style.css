@@ -55,7 +55,7 @@ body {
 
 header {
     max-width: 100%;
-    max-height: 715px;
+    max-height: 695px;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
 
@@ -98,6 +98,7 @@ header {
 .fitness {
     justify-content: space-between;
     margin: 0 190px;
+    padding: 0;
 }
 
 .home {
@@ -273,15 +274,6 @@ main {
     margin-bottom: 15px;
 }
 
-.habit-title {
-    margin-top: 0px;
-}
-
-.habit-description {
-    margin-bottom: 34px;
-
-}
-
 .exercise-content {
     max-width: 671px;
 }
@@ -307,7 +299,7 @@ main {
 
 }
 
- 
+
 .img-1 {
 
     max-width: 250px;
@@ -337,9 +329,135 @@ main {
     max-width: 347px;
 
 }
-.bmi-content{
+
+.bmi-content {
     max-width: 671px;
     margin: 0 auto;
     text-align: center;
     margin-top: 80px;
+}
+
+.bmi-section {
+    background: rgb(34, 34, 34);
+
+}
+
+.bmi {
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 0 180px;
+
+}
+
+.table-title {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-top: 52px;
+}
+
+table {
+    max-width: 310px;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+td {
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.calculation-title {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-top: 52px;
+}
+
+.calculation-title,
+.calculation-description {
+    max-width: 577px;
+
+}
+
+input,
+select {
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 13px;
+}
+
+.container {
+    max-width: 577px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1);
+    gap: 12px;
+}
+
+#box-5 {
+    grid-column: span 2;
+}
+
+.bmi-button {
+    margin-top: 25px;
+    margin-bottom: 52px;
+}
+
+.calculation-title {
+    margin-bottom: 14px;
+}
+
+.calculation-description {
+    margin-top: 0px;
+}
+.team-member{
+    width: 326px;
+    height: 272px;
+    border-radius: 18px;
+}
+.our-team{
+    max-width: 1060px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-images {
+    
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+
+    
+}
+.title-and-content{
+    text-align: center;
+    width: 671px;
+    margin-bottom: 40px;
+     
 }
