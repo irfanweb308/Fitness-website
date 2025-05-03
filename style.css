@@ -184,14 +184,14 @@ header {
 
 .blur-box-2 {
     position: relative;
-    left: 200px;
-    top: -600px;
+    left: 225px;
+    top: -550px;
     max-width: 193px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
-    padding: 17px;
+     
     text-align: center;
 }
 
@@ -347,6 +347,7 @@ main {
     /* align-items: center; */
     margin: 0 180px;
 
+
 }
 
 .table-title {
@@ -431,33 +432,144 @@ select {
 .calculation-description {
     margin-top: 0px;
 }
-.team-member{
+
+.team-member {
     width: 326px;
     height: 272px;
     border-radius: 18px;
 }
-.our-team{
+
+.our-team {
     max-width: 1060px;
     margin: 0 auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+     
 }
 
 .team-images {
-    
+
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
+    margin-bottom: 88px;
 
-    
+
 }
-.title-and-content{
+
+.team-images div {
+    height: 272px;
+}
+
+.title-and-content {
     text-align: center;
     width: 671px;
     margin-bottom: 40px;
+}
+
+.name,
+.title {
+    position: relative;
+    top: -70px;
+    left: 10px;
+
+}
+
+.name {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer {
+    background: rgb(66, 65, 65);
+    display: flex;
+    justify-content: center;
      
+
+
+}
+
+.footer-fitness {
+    max-width: 440px;
+
+}
+
+.footer-title {
+    font-size: 4.375rem;
+    font-weight: bolder;
+    color: #E6533C;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.footer-content {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.list-item {
+    list-style: none;
+
+}
+
+.links {
+    gap: 20px;
+    flex-direction: column;
+}
+
+.started-title {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 35px;
+    margin-top: 0px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.43rem;
+    font-weight: 400;
+}
+
+.footer-section {
+    gap: 100px;
+    max-width: 1060px;
+    margin-top: 27px;
+
+}
+/* .footer-bottom {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.footer-line {
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+    margin-top: 45px;
+}
+
+.rights-reserved {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    padding-bottom: 30px;
+    text-align: center;
 }
